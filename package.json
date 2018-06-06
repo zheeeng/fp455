@@ -1,0 +1,25 @@
+{
+  "name": "fp455",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "Huami",
+    "Flower Password",
+    "crypto",
+    "ReasonML",
+    "BuckleScript"
+  ],
+  "author": "Zheeeng <hi@zheeeng.me>",
+  "license": "MIT",
+  "bin": "bin/fp455.js",
+  "devDependencies": {
+    "bs-platform": "^3.1.5"
+  },
+  "dependencies": {
+    "blueimp-md5": "^2.10.0"
+  }
+}

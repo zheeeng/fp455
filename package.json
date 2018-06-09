@@ -2,8 +2,8 @@
   "name": "fp455",
   "version": "0.1.0",
   "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
+    "build": "rollup -c",
+    "start": "rollup -c -w",
     "clean": "bsb -clean-world"
   },
   "keywords": [
@@ -17,7 +17,9 @@
   "license": "MIT",
   "bin": "bin/fp455.js",
   "devDependencies": {
-    "bs-platform": "^3.1.5"
+    "bs-platform": "^3.1.5",
+    "rollup": "^0.60.1",
+    "rollup-plugin-bucklescript": "^0.6.1"
   },
   "dependencies": {
     "blueimp-md5": "^2.10.0"

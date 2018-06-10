@@ -3,6 +3,8 @@
 .merlin
 .bsb.lock
 npm-debug.log
-/lib/bs/
+yarn-error.log
+/lib
 /node_modules/
 /src/**/*.js
+/dist

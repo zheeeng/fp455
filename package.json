@@ -4,7 +4,8 @@
   "scripts": {
     "build": "rollup -c && NODE_ENV=bin rollup -c",
     "start": "rollup -c -w",
-    "clean": "bsb -clean-world"
+    "clean": "bsb -clean-world",
+    "prepublish": "npm run build"
   },
   "bin": "dist/bin.js",
   "main": "dist/core.js",

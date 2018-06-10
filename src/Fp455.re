@@ -1,4 +1,4 @@
-[@bs.val] [@bs.module "blueimp-md5"]
+[@bs.module "blueimp-md5"]
 external hmac_md5 : (string, string) => string = "default";
 
 let isNumber = c => Char.code(c) |> (x => 48 <= x && x <= 57);

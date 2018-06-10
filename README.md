@@ -84,3 +84,7 @@ In browser:
     const pass = fp455.calculate('abc123456 ', 'fp455', 16)
 </script>
 ```
+
+**CDN**: `
+https://unpkg.com/fp455/dist/fp455.min.js
+`

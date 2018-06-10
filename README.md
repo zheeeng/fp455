@@ -88,3 +88,6 @@ In browser:
 **CDN**: `
 https://unpkg.com/fp455/dist/fp455.min.js
 `
+
+## License
+MIT

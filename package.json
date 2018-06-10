@@ -5,7 +5,8 @@
     "build": "rollup -c && NODE_ENV=bin rollup -c",
     "start": "rollup -c -w",
     "clean": "bsb -clean-world && rm -rf dist/*",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "echo 'no-test'"
   },
   "bin": "dist/bin.js",
   "main": "dist/core.js",

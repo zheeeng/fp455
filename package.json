@@ -4,12 +4,13 @@
   "scripts": {
     "build": "rollup -c && NODE_ENV=bin rollup -c",
     "start": "rollup -c -w",
-    "clean": "bsb -clean-world",
+    "clean": "bsb -clean-world && rm -rf dist/*",
     "prepublish": "npm run build"
   },
   "bin": "dist/bin.js",
   "main": "dist/core.js",
   "source": "src/Fp455.re",
+  "module": "lib/es6/src/Fp455.js",
   "keywords": [
     "Huami",
     "Flower Password",
@@ -22,9 +23,12 @@
   "devDependencies": {
     "bs-platform": "^3.1.5",
     "rollup": "^0.60.1",
-    "rollup-plugin-bucklescript": "^0.6.1"
+    "rollup-plugin-bucklescript": "^0.6.1",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^4.0.0"
   },
   "dependencies": {
-    "blueimp-md5": "^2.10.0"
+    "blueimp-md5": "^2.10.0",
+    "rollup-plugin-commonjs": "^9.1.3"
   }
 }

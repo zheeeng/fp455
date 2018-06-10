@@ -22,6 +22,7 @@ const binBuildConfig = {
   plugins: [bucklescript({
     'package-specs': 'commonjs',
   })],
+  banner: '#!/usr/bin/env node',
 }
 
 export default buildBin ? binBuildConfig : coreBuildConfig

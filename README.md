@@ -1,5 +1,5 @@
 # fp455
-Flower Password based on ResonML
+Flower Password based on ReasonML
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/zheeeng/fp455.svg)](https://greenkeeper.io/)
 [![language](https://img.shields.io/badge/%3C/%3E-ReasonML-blue.svg)](https://reasonml.github.io//)

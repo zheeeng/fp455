@@ -8,6 +8,8 @@ Flower Password based on ResonML
 [![npm version](https://img.shields.io/npm/v/fp455.svg)](https://www.npmjs.com/package/fp455)
 [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/fp455.svg)](https://unpkg.com/fp455/dist/fp455.min.js)
 
+[More about this tool on official website](http://flowerpassword.com/)
+
 ---
 
 ## The Command Line

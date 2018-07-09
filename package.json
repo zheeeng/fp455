@@ -1,6 +1,6 @@
 {
   "name": "fp455",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "build": "rollup -c && NODE_ENV=bin rollup -c",
     "start": "rollup -c -w",

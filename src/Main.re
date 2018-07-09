@@ -1,4 +1,4 @@
-exception ExitProcess(string);
+exception Exit_process(string);
 
 let helpInfo = {|Welcome to fp455-cli
 
@@ -22,11 +22,11 @@ let main = () =>
     (
       switch (int_of_string(List.hd(rest))) {
       | len when len > 0 && len <= 32 => len
-      | _ => raise(ExitProcess("The length must be in range(0, 32]!"))
+      | _ => raise(Exit_process("The length must be in range(0, 32]!"))
       | exception (Failure("hd")) => 16
       | exception (Failure("int_of_string")) =>
         raise(
-          ExitProcess(
+          Exit_process(
             "Invalid length argument, try \"fp455 -h\" get the help information",
           ),
         )
@@ -38,7 +38,7 @@ let main = () =>
   };
 
 try (main()) {
-| ExitProcess(str) =>
+| Exit_process(str) =>
   Js.log(str);
   Node.Process.exit(1);
 | _ => Js.log("unexpected error happens.")

@@ -63,7 +63,7 @@ $ fp no-history-pass fp455
 
 ```sh
 yarn add fp455
-npm install -g fp455
+npm install -s fp455
 ```
 
 ## Usage

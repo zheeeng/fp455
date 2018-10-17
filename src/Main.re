@@ -34,7 +34,7 @@ let main = () =>
     )
     |> (len => Fp455.calculate(pass, key, len) |> Js.log)
   | _ =>
-    Js.log("Not engough arguments, try \"fp455 -h\" get the help information")
+    Js.log("Not enough arguments, try \"fp455 -h\" get the help information")
   };
 
 try (main()) {

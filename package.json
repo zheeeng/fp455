@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "blueimp-md5": "^2.10.0",
-    "rollup-plugin-commonjs": "^10.0.0"
+    "rollup-plugin-commonjs": "^10.1.0"
   }
 }

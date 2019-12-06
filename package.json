@@ -22,7 +22,7 @@
   "author": "Zheeeng <hi@zheeeng.me>",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^6.0.3",
+    "bs-platform": "^7.0.1",
     "rollup": "^1.0.0",
     "rollup-plugin-bucklescript": "^0.7.0",
     "rollup-plugin-node-resolve": "^4.0.0",
